@@ -262,6 +262,19 @@ button {
 @media only screen and (max-width: 1399px) {
 }
 @media only screen and (max-width: 1199px) {
+  .template_title {
+    font-size: 38px;
+    margin-bottom: 18px;
+  }
+  .template_link_wrap_ul {
+    gap: 25px;
+  }
+  .nav-pills .nav-link.active {
+    font-size: 13px;
+  }
+  .nav-link {
+    font-size: 13px;
+  }
   .templates_img_wrapper {
     gap: 25px;
   }
