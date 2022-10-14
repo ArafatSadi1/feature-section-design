@@ -128,6 +128,9 @@ button {
   flex-direction: column;
   gap: 35px;
 }
+.template_sm_img_wrap {
+  position: relative;
+}
 .template_img_quality {
   width: 70px;
   height: 28px;
@@ -231,24 +234,24 @@ button {
     gap: 26px;
   }
   .template_img_quality {
-    width: 50px;
-    height: 20px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 60px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 12px;
   }
   .template_img_quality_txt {
-    font-size: 10px;
+    font-size: 11px;
   }
   .template_img_quality_txt_r8 {
-    font-size: 10px;
+    font-size: 11px;
   }
   .template_img_play_btn_wrap {
-    width: 34px;
-    height: 34px;
+    width: 38px;
+    height: 38px;
   }
   .template_img_play_icon {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
   }
 }
 /* Ipad pro */
@@ -276,25 +279,24 @@ button {
     margin-top: 1.5rem;
   }
   .template_img_quality {
-    width: 40px;
-    height: 18px;
-    margin-top: 8px;
-    margin-left: 8px;
-    gap: 2px;
+    width: 50px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
   .template_img_quality_txt {
-    font-size: 8px;
+    font-size: 9px;
   }
   .template_img_quality_txt_r8 {
-    font-size: 8px;
+    font-size: 9px;
   }
   .template_img_play_btn_wrap {
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
   }
   .template_img_play_icon {
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
   }
   .template_btn {
     width: 140px;
@@ -327,32 +329,38 @@ button {
   .template_big_img_wrapper_right {
     margin-top: 1.5rem;
   }
+  .template_sm_img_wrapper_left {
+    gap: 29px;
+  }
+  .template_sm_img_wrapper_right {
+    gap: 29px;
+  }
   .template_img_quality {
-    width: 35px;
-    height: 15px;
-    margin-top: 6px;
-    margin-left: 6px;
-    gap: 2px;
+    width: 45px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 7px;
+    gap: 3px;
   }
   .template_img_quality_txt {
-    font-size: 7px;
+    font-size: 8px;
   }
   .template_img_quality_txt_r8 {
-    font-size: 7px;
+    font-size: 8px;
   }
   .template_img_play_btn_wrap {
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
   }
   .template_img_play_icon {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
   }
   .template_btn {
     width: 90px;
     height: 30px;
     font-size: 9px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 }
 /* Mobile */
@@ -378,38 +386,42 @@ button {
   }
   .template_sm_img_wrapper_left {
     margin-top: 1.5rem;
+    gap: 22px;
+  }
+  .template_sm_img_wrapper_right {
+    gap: 22px;
   }
   .template_img_quality {
-    width: 60px;
-    height: 25px;
-    margin-top: 15px;
-    margin-left: 15px;
-    gap: 4px;
+    width: 80px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 8px;
   }
   .template_img_quality_txt {
-    font-size: 12px;
+    font-size: 14px;
   }
   .template_img_quality_txt_r8 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .template_img_play_btn_wrap {
-    width: 42px;
-    height: 42px;
+    width: 64px;
+    height: 64px;
   }
   .template_img_play_icon {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
   .template_btn {
     width: 110px;
     height: 40px;
     font-size: 12px;
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 420px) {
   .templates_wrapper {
     padding: 50px 0px 25px 0px;
-    width: 373px;
     margin: 0 auto;
   }
   .template_title {
@@ -420,31 +432,44 @@ button {
     gap: 4px;
   }
   .nav-link {
-    font-size: 5px;
+    font-size: 6px;
   }
   .nav-pills .nav-link.active {
-    font-size: 5px;
+    font-size: 6px;
     font-weight: 500;
   }
   .templates_img_wrapper {
     margin: 25px 0 10px 0;
   }
-  .template_img_play_btn_wrap {
-    width: 20px;
-    height: 20px;
-  }
-  .template_img_play_icon {
-    width: 7px;
-    height: 7px;
-  }
   .template_btn {
     width: 70px;
     height: 25px;
     font-size: 8px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 375px) {
+  .template_img_quality {
+    width: 70px;
+    height: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+    gap: 7px;
+  }
+  .template_img_quality_txt {
+    font-size: 13px;
+  }
+  .template_img_quality_txt_r8 {
+    font-size: 13px;
+  }
+  .template_img_play_btn_wrap {
+    width: 54px;
+    height: 54px;
+  }
+  .template_img_play_icon {
+    width: 18px;
+    height: 18px;
+  }
 }
 /* templates design end */
 
